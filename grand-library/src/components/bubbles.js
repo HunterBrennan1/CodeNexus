@@ -9,24 +9,39 @@ export const Bubbles = () => {
     <section className="bubbles_section_wrapper">
       <div className="bubbles_container">
         <div className="bubble">
-          <img className="bubble_img" src={Penicon}></img>
-          <h2 className="bubble_title">Styling Tools</h2>
-          <p className="bubble_text">Find useful tools for creative inspiration</p>
+          <div className='bubble_inside'>
+            <img className="bubble_img" src={Penicon}></img>
+            <h2 className="bubble_title">Styling Tools</h2>
+            <p className="bubble_text">Find useful tools for creative inspiration</p>
+          </div>
         </div>
         <div className="bubble">
-          <img className="bubble_img" src={Database}></img>
-          <h2 className="bubble_title">Styling Tools</h2>
-          <p className="bubble_text">Find useful tools for creative inspiration</p>
+          <div className='bubble_inside'>
+            <img className="bubble_img" src={Database}></img>
+            <h2 className="bubble_title">Styling Tools</h2>
+            <p className="bubble_text">Find useful tools for creative inspiration</p>
+          </div>
         </div>
         <div className="bubble">
-          <img className="bubble_img" src={Computericon}></img>
-          <h2 className="bubble_title">Styling Tools</h2>
-          <p className="bubble_text">Find useful tools for creative inspiration</p>
+          <div className='bubble_inside'>
+            <img className="bubble_img" src={Computericon}></img>
+            <h2 className="bubble_title">Styling Tools</h2>
+            <p className="bubble_text">Find useful tools for creative inspiration</p>
+          </div>
         </div>
         <div className="bubble">
-          <img className="bubble_img" src={Layers}></img>
-          <h2 className="bubble_title">Styling Tools</h2>
-          <p className="bubble_text">Find useful tools for creative inspiration</p>
+          <div className='bubble_inside'>
+            <img className="bubble_img" src={Layers}></img>
+            <h2 className="bubble_title">Styling Tools</h2>
+            <p className="bubble_text">Find useful tools for creative inspiration</p>
+          </div>
+        </div>
+        <div className="bubble">
+          <div className='bubble_inside'>
+            <img className="bubble_img" src={Layers}></img>
+            <h2 className="bubble_title">Styling Tools</h2>
+            <p className="bubble_text">Find useful tools for creative inspiration</p>
+          </div>
         </div>
       </div>
     </section>
