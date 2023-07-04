@@ -157,6 +157,31 @@ box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
   justify-content: center;
 }
 
+/* //////////////////bubbles section styling/////////////// */
+
+.bubbles_section_wrapper{
+  padding: 100px 10%;
+  width:100%;
+}
+
+.bubbles_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.bubble{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.bubble_img{
+
+}
+
 @media screen and (max-width:1400px){
   .hero_gif{
     display: none;
