@@ -29,7 +29,7 @@ function Navbartop() {
               </NavDropdown> */}
             </Nav>
             <Nav>
-              <Nav.Link href="#deets">Sign In</Nav.Link>
+              <Nav.Link className='sign_in_btn' href="#deets">Sign In</Nav.Link>
               <Nav.Link className='profile_icon_container' eventKey={2} href="#">
                 Sign Up
               </Nav.Link>
@@ -37,7 +37,7 @@ function Navbartop() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <p className='top_banner_text'>Tool library made for developers, by developers.</p>
+      <p className='top_banner_text'>A tool library made for developers, by developers.</p>
     </section>
   );
 }
