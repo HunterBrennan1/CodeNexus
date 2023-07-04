@@ -1,1 +1,58 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin:0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.navbar_container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.top_banner_text{
+  text-align: center;
+  width:100%;
+  padding:10px;
+  color:#fff;
+  font-weight: 500;
+  background-color:#0066ff;
+}
+
+.navbar-brand{
+  font-weight: 700;
+  color:#0066ff;
+}
+
+.nav-link{
+  color:#000;
+}
+
+.profile_icon_container{
+  background-color: #0066ff;
+  color:#fefefe;
+  border-radius: 10px;
+  font-size: 14px;
+  padding:10px 15px !important;
+  margin-left:10px;
+  font-weight: 600;
+}
+
+
+
+@media screen and (max-width:990px){
+  .profile_icon_container{
+    margin-left: 0px;
+    width:auto;
+    text-align: center;
+  }
+
+  .nav-link{
+    /* padding-left: 10px; */
+  }
+
+}
