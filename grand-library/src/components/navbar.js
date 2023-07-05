@@ -10,11 +10,11 @@ function Navbartop() {
     <section>
       <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary navbar_container">
         <Container>
-          <Navbar.Brand href="#home">Web Dev Buddy</Navbar.Brand>
+          <Navbar.Brand href="/">Code Nexus</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto nav_btn_icon_container">
-              <Nav.Link href="#features">Home</Nav.Link>
+              <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="#pricing">About us</Nav.Link>
               {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>

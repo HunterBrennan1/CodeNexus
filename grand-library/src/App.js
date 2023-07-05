@@ -1,20 +1,21 @@
 
 import './App.css';
-import Navbartop from './components/navbar';
-import Hero from './components/hero';
-import Bubbles from './components/bubbles';
-import Footer from './components/footer';
-// import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from './components/home';
+import { BrowserRouter, BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import NavBar from './components/navbar';
 
 
 function App() {
   return (
-    <div className="App">
-      <Navbartop />
-      <Hero />
-      <Bubbles />
-      <Footer />
+    <div>
+      <NavBar />
     </div>
+    // <BrowserRouter>
+    //   <Routes>
+
+    //     <Route path='/' element={<Home />}></Route>
+    //   </Routes>
+    // </BrowserRouter>
   );
 }
 
