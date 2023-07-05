@@ -352,13 +352,28 @@ box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
   line-height: 1.7;
 }
 
+.item_container{
+  display: flex;
+  flex-wrap: wrap;
+  gap:5px;
+  justify-content: space-evenly;
+}
+
 .item{
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  gap:10px;
   background-color: #f7f7f8;
+  width:19%;
+  margin-bottom: 20px;
+  padding:10px;
+  border-radius: 15px;
 }
 
 .item_img{
-  width:100px;
-  height:100px;
+  width:100%;
+  height:auto;
 }
 
 @media screen and (max-width:1400px){
