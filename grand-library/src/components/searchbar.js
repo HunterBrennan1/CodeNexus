@@ -44,15 +44,16 @@ export const Searchbar = () => {
       </div>
       <div className='search_filter_wrapper'>
         <div className='search_filter_container'>
+
+          <div>
+            <Cardhero />
+          </div>
           <div className='buttons_container_search'>
             {filters.map((category, idx) => (
-              <button onClick={() => handleFilterButtonClick(category)} className={`button ${selectedFilters?.includes(category) ? "active" : ""}`} key={`filters-${idx}`}>
+              <button onClick={() => handleFilterButtonClick(category)} className={`filter_button ${selectedFilters?.includes(category) ? "active" : ""}`} key={`filters-${idx}`}>
                 {category}
               </button>
             ))}
-          </div>
-          <div>
-            <Cardhero />
           </div>
           <div className='item_container'>
             {filteredItems.map((item, idx) => (

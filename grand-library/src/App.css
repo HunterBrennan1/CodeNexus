@@ -322,6 +322,27 @@ box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
 
 /* ////////////////////Card Hero section styling///////////////////////// */
 
+.buttons_container_search{
+  display: flex;
+  justify-content: center;
+  margin-bottom:30px;
+}
+
+.filter_button{
+  background-color: #212529;
+  color:#fefefe;
+  border-radius: 8px;
+  margin-left:10px;
+  padding:10px 25px;
+  align-items: center;
+  text-align: center;
+  border:none;
+}
+
+.active{
+  background-color: #0066ff;
+}
+
 .card_hero_container{
   padding:42px;
   display: flex;
