@@ -44,6 +44,17 @@ a{
   color:#000;
 }
 
+.navbar-toggler{
+  border:none !important;
+}
+.navbar-toggler:focus{
+  outline:none !important;
+  box-shadow: none !important;
+}
+.navbar-toggler{
+  outline:none !important;
+}
+
 .profile_icon_container{
   background-color: #0066ff;
   color:#fefefe;
@@ -267,6 +278,46 @@ box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
   border:none;
   text-align: center;
   background-color: #f8f8f8;
+}
+
+/* ///////////////Search bar section styling///////////////// */
+
+.search_wrapper{
+  width:100%;
+  height:auto;
+  padding:10px 30px;
+  box-shadow: rgba(0, 0, 0, 0.075) 0 1px;
+}
+
+.search_container{
+  padding:4px;
+  border-radius: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  transition: all 0.15s ease;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.search_input{
+  border: none;
+  margin:4px;
+  text-indent: 12px;
+  flex-basis: 250px;
+  flex-grow: 1000000000;
+  color: #000 !important;
+  font-size: 16px;
+}
+
+.search_input:focus{
+  outline:none;
+}
+.search_input:active{
+  outline:none;
+}
+
+.search_icon_left{
+  width:25px;
 }
 
 @media screen and (max-width:1400px){
