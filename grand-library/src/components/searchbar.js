@@ -59,6 +59,7 @@ export const Searchbar = () => {
               <div key={`items-${idx}`} className="item">
                 <p className='card_name'>{item.name}</p>
                 <img className='item_img' src={item.image} alt=""></img>
+                <p className='card_desc'>{item.desc}</p>
                 <div className='category_container'>
                   <p className='category'>{item.category}</p>
                   <a className='live_link_btn' href={item.link} target="_blank">{item.button}</a>

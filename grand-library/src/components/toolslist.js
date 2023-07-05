@@ -6,7 +6,8 @@ export const items = [
     image: Gradient,
     category: "Css",
     link: "https://gradienthunt.com/",
-    button: "Link"
+    button: "Link",
+    desc: "Find or make color gradients"
   },
   {
     name: "test2",

@@ -417,6 +417,12 @@ margin-bottom:1rem;
 margin-left:10px;
 }
 
+.card_desc{
+  text-align: center;
+  color:#464853;
+  margin-top:10px;
+}
+
 @media screen and (max-width:1400px){
   .hero_gif{
     display: none;
