@@ -7,7 +7,7 @@ import Cardhero from './cardpagehero';
 export const Searchbar = () => {
   const [selectedFilters, setSelectedFilters] = useState([]);
   const [filteredItems, setFilteredItems] = useState(items);
-  let filters = ["Css", "JavaScript", "React", "Node",];
+  let filters = ["Css", "JavaScript", "React"];
 
   const handleFilterButtonClick = (selectedCategory) => {
     if (selectedFilters.includes(selectedCategory)) {
@@ -39,7 +39,7 @@ export const Searchbar = () => {
       <div className='search_wrapper'>
         <div className='search_container'>
           <img className='search_icon_left' src={Magnifiericon}></img>
-          <input className='search_input' placeholder='Search by languages, styles, and more...'></input>
+          <input className='search_input' placeholder='Search or Filter by languages, styles, and more...'></input>
         </div>
       </div>
       <div className='search_filter_wrapper'>
