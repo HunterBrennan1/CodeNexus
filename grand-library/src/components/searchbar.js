@@ -57,9 +57,12 @@ export const Searchbar = () => {
           <div className='item_container'>
             {filteredItems.map((item, idx) => (
               <div key={`items-${idx}`} className="item">
+                <p className='card_name'>{item.name}</p>
                 <img className='item_img' src={item.image} alt=""></img>
-                <p>{item.name}</p>
-                <p className='category'>{item.category}</p>
+                <div className='category_container'>
+                  <p className='category'>{item.category}</p>
+                  <a className='live_link_btn' href={item.link} target="_blank">{item.button}</a>
+                </div>
               </div>
             ))}
           </div>

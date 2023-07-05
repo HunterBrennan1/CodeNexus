@@ -2,9 +2,11 @@ import Gradient from "../assets/imgs/gradienthunt.PNG";
 
 export const items = [
   {
-    name: "test1",
+    name: "Gradient Hunt",
     image: Gradient,
-    category: "Css"
+    category: "Css",
+    link: "https://gradienthunt.com/",
+    button: "Link"
   },
   {
     name: "test2",
