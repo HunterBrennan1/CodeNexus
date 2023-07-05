@@ -352,6 +352,15 @@ box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
   line-height: 1.7;
 }
 
+.item{
+  background-color: #f7f7f8;
+}
+
+.item_img{
+  width:100px;
+  height:100px;
+}
+
 @media screen and (max-width:1400px){
   .hero_gif{
     display: none;

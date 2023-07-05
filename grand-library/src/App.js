@@ -4,7 +4,6 @@ import Home from './components/home';
 import { BrowserRouter, BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import NavBar from './components/navbar';
 import Searchbar from './components/searchbar';
-import Cardhero from './components/cardpagehero';
 
 
 function App() {
@@ -12,7 +11,6 @@ function App() {
     <div>
       <NavBar />
       <Searchbar />
-      <Cardhero />
     </div>
     // <BrowserRouter>
     //   <Routes>
