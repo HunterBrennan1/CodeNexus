@@ -65,6 +65,19 @@ a{
   font-weight: 600;
 }
 
+.gotopbtn{
+  position: fixed;
+  width:50px;
+  height:50px;
+  background-color: #f7f7f8;
+  bottom:40px;
+  right:50px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 16px -4px rgba(0,0,0,0.28);
+-moz-box-shadow: 0px 0px 16px -4px rgba(0,0,0,0.28);
+box-shadow: 0px 0px 16px -4px rgba(0,0,0,0.28);
+}
+
 /* ///////////////////////////Homepage Hero Styling/////////////////////////// */
 
 .homepage_wrapper{

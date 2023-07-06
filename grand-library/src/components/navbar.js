@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import ProfileIcon from '../assets/imgs/profile-icon.svg';
 import Daymode from '../assets/imgs/daymode-icon.svg';
+import UpArrow from '../assets/imgs/up-arrow-4.png';
 
 function Navbartop() {
   return (
@@ -38,6 +39,7 @@ function Navbartop() {
         </Container>
       </Navbar>
       <p className='top_banner_text'>A tool library made for developers, by developers.</p>
+      <a className="back_to_top_btn" href="#"><img className="gotopbtn" src={UpArrow}></img></a>
     </section>
   );
 }
