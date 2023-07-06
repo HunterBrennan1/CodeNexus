@@ -442,6 +442,7 @@ margin-left:10px;
   text-align: center;
   color:#464853;
   margin-top:10px;
+  height:48px;
 }
 
 @media screen and (max-width:1400px){
@@ -518,5 +519,13 @@ margin-left:10px;
 
   .bubble_img{
     left:40%;
+  }
+
+  .item_container{
+    padding:15px;
+  }
+
+  .item{
+    width:100%;
   }
 }
