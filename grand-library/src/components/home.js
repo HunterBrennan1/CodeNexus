@@ -2,6 +2,7 @@ import NavBar from "./navbar";
 import Hero from "./hero";
 import Bubbles from "./bubbles";
 import Footer from "./footer";
+import Bar from "./barDivider";
 
 
 export const Home = () => {
@@ -10,6 +11,7 @@ export const Home = () => {
       <NavBar />
       <Hero />
       <Bubbles />
+      <Bar />
       <Footer />
     </section>
   )

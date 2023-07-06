@@ -45,9 +45,7 @@ export const Bubbles = () => {
           </div>
         </div>
       </div>
-      <div>
-        <p className='filler_text'>Used by us personally with satisfied users around the world</p>
-      </div>
+
     </section>
   )
 }
