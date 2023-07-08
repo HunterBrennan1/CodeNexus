@@ -611,4 +611,16 @@ margin-left:10px;
   .item{
     width:100%;
   }
+
+  .modal-dialog{
+    margin-top:auto;
+    position: absolute;
+  bottom:0;
+  }
+
+  .modal{
+  vertical-align: bottom !important;
+  
+  margin-top: auto !important;
+  }
 }
