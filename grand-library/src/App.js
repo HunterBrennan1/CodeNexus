@@ -5,6 +5,7 @@ import { BrowserRouter, BrowserRouter as Router, Route, Routes } from "react-rou
 import NavBar from './components/navbar';
 import Searchbar from './components/searchbar';
 import Toolspage from './components/toolscontentpage';
+import Protab from './components/protab';
 
 
 function App() {

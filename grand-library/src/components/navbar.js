@@ -30,6 +30,7 @@ function Navbartop() {
               </NavDropdown> */}
             </Nav>
             <Nav>
+              <Nav.Link className='pro_btn' href="#deets">Go Pro</Nav.Link>
               <Nav.Link className='sign_in_btn' href="#deets">Sign In</Nav.Link>
               <Nav.Link className='profile_icon_container' eventKey={2} href="#">
                 Sign Up
