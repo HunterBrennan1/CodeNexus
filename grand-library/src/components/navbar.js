@@ -38,7 +38,7 @@ function Navbartop() {
               </NavDropdown> */}
             </Nav>
             <Nav>
-              <Nav.Link className='pro_btn' href="#deets" onClick={handleShow}>Go Pro</Nav.Link>
+              <Nav.Link className='pro_btn' onClick={handleShow}>Go Pro</Nav.Link>
               <Modal className='pro_modal' show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
                   <Modal.Title className='pro_modal_title'>Go Pro to unlock all the features</Modal.Title>
@@ -55,7 +55,7 @@ function Navbartop() {
                   </ul>
                 </Modal.Body>
                 <Modal.Footer>
-                  <Button className='pro_btn_price' variant="primary" onClick={handleClose}>
+                  <Button className='pro_btn_price' href="/pro" variant="primary" onClick={handleClose}>
                     Upgrade for just $3/mo
                   </Button>
                 </Modal.Footer>

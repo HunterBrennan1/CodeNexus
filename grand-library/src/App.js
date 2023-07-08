@@ -19,6 +19,8 @@ function App() {
 
         <Route path='/' element={<Home />}></Route>
         <Route path='/tools' element={<Toolspage />}></Route>
+        <Route path='/pro' element={<Protab />}></Route>
+
       </Routes>
     </BrowserRouter>
   );
