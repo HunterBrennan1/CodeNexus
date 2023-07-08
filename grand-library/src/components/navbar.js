@@ -5,8 +5,16 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import ProfileIcon from '../assets/imgs/profile-icon.svg';
 import Daymode from '../assets/imgs/daymode-icon.svg';
 import UpArrow from '../assets/imgs/up-arrow-4.png';
+import Modal from 'react-bootstrap/Modal';
+import { useState } from 'react';
+import Button from 'react-bootstrap/Button';
 
 function Navbartop() {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
   return (
     <section>
       <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary navbar_container">
@@ -30,7 +38,28 @@ function Navbartop() {
               </NavDropdown> */}
             </Nav>
             <Nav>
-              <Nav.Link className='pro_btn' href="#deets">Go Pro</Nav.Link>
+              <Nav.Link className='pro_btn' href="#deets" onClick={handleShow}>Go Pro</Nav.Link>
+              <Modal className='pro_modal' show={show} onHide={handleClose}>
+                <Modal.Header closeButton>
+                  <Modal.Title className='pro_modal_title'>Go Pro to unlock all the features</Modal.Title>
+                </Modal.Header>
+                <div>
+                  <p className='pro_modal_desc'>Get all the power of Code Nexus without any limitations!</p>
+                </div>
+                <Modal.Body>
+                  <ul>
+                    <li className='pro_benefits'><strong>Remove ads</strong> and popups to enter our library of tools</li>
+                    <li className='pro_benefits'><strong>Create Custom</strong> cards to fit personal accessories saved to your account forever!</li>
+                    <li className='pro_benefits'><strong>First Dibs</strong> on exclusive content and rewards given to our users!</li>
+                    <li className='pro_benefits'><strong>A Chance</strong> to have your very own projects listed on our app for others to use</li>
+                  </ul>
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button className='pro_btn_price' variant="primary" onClick={handleClose}>
+                    Upgrade for just $3/mo
+                  </Button>
+                </Modal.Footer>
+              </Modal>
               <Nav.Link className='sign_in_btn' href="#deets">Sign In</Nav.Link>
               <Nav.Link className='profile_icon_container' eventKey={2} href="#">
                 Sign Up

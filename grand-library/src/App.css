@@ -87,6 +87,59 @@ a{
 box-shadow: 0px 0px 16px -4px rgba(0,0,0,0.28);
 }
 
+.modal-dialog{
+  display: flex;
+  justify-content: center !important;
+  vertical-align: middle !important;
+  /* height:100%; */
+  margin-top:30vh;
+}
+
+.modal_content{
+  height:100px !important; 
+  padding:20px !important;
+}
+
+.modal-header{
+  border-bottom: none !important;
+  align-items: normal;
+  padding-bottom: 0;
+}
+
+
+.modal-footer{
+  border-top:none !important;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 0 10px !important;
+}
+
+.pro_modal_title{
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 1.2;
+  padding:20px;
+}
+
+.pro_modal_desc{
+  padding:0 30px;
+  color:#212529;
+  font-size: 18px;
+}
+
+.pro_benefits{
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #464853;
+}
+
+.pro_btn_price{
+  width:100%;
+
+}
+
+.btn-close{
+  padding:20px !important; 
+}
+
 /* ///////////////////////////Homepage Hero Styling/////////////////////////// */
 
 .homepage_wrapper{
