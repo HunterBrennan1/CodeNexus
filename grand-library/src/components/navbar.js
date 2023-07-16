@@ -38,6 +38,7 @@ function Navbartop() {
               </NavDropdown> */}
             </Nav>
             <Nav>
+              <Nav.Link className='Tools_btn_nav' href="/tools">Tools</Nav.Link>
               <Nav.Link className='pro_btn' onClick={handleShow}>Go Pro</Nav.Link>
               <Modal className='pro_modal' show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
@@ -60,6 +61,7 @@ function Navbartop() {
                   </Button>
                 </Modal.Footer>
               </Modal>
+              <span className='divider'></span>
               <Nav.Link className='sign_in_btn' href="#deets">Sign In</Nav.Link>
               <Nav.Link className='profile_icon_container' eventKey={2} href="#">
                 Sign Up
