@@ -38,7 +38,7 @@ export const Prosection = () => {
             <div>
               <div className='pro_pro_header'>
                 <h1 className="pro_pro_header_title">Pro</h1>
-                <p className="pro_free_text">Go Pro to get all te features and support the future development. Cancel anytime.</p>
+                <p className="pro_free_text">Go Pro to get all the features and support the future development. Cancel anytime.</p>
               </div>
               <div className="pro_pro_info">
                 <h2 className="pro_free_header_title">$3</h2>
