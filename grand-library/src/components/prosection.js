@@ -1,4 +1,5 @@
 import Footer from './footer';
+import Bar from './barDivider';
 
 export const Prosection = () => {
   return (
@@ -66,6 +67,7 @@ export const Prosection = () => {
           </div>
         </div>
       </div>
+      <Bar />
       <Footer />
     </section>
   )
