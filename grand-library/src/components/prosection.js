@@ -28,7 +28,7 @@ export const Prosection = () => {
                 <li className="pro_list_item">Find limited tools</li>
                 <li className="pro_list_item">12 ready developer tools</li>
                 <li className="pro_list_item">Unable to save favorites</li>
-                <li className="pro_list_item">Basic private profile</li>
+                <li className="pro_list_item">Basic public profile</li>
                 <li className="pro_list_item">Limited customization</li>
               </ul>
             </div>
