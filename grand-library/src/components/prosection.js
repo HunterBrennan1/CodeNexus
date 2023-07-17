@@ -23,12 +23,13 @@ export const Prosection = () => {
                 <h2 className="pro_free_header_title">$0</h2>
                 <p className="pro_gray_text">per month</p>
               </div>
-              <ul>
-                <li className="pro_list_item">test</li>
-                <li className="pro_list_item">test</li>
-                <li className="pro_list_item">test</li>
-                <li className="pro_list_item">test</li>
-                <li className="pro_list_item">test</li>
+              <ul className='pro_list_free'>
+                <li className="pro_list_item">Ads visable on the page</li>
+                <li className="pro_list_item">Find limited tools</li>
+                <li className="pro_list_item">12 ready developer tools</li>
+                <li className="pro_list_item">Unable to save favorites</li>
+                <li className="pro_list_item">Basic private profile</li>
+                <li className="pro_list_item">Limited customization</li>
               </ul>
             </div>
           </div>
@@ -42,19 +43,22 @@ export const Prosection = () => {
                 <h2 className="pro_free_header_title">$3</h2>
                 <p className="pro_gray_text">per month, $36 billed yearly</p>
               </div>
-              <ul>
-                <li className="pro_list_item">test</li>
-                <li className="pro_list_item">test</li>
-                <li className="pro_list_item">test</li>
-                <li className="pro_list_item">test</li>
-                <li className="pro_list_item">test</li>
-                <li className="pro_list_item">test</li>
-                <li className="pro_list_item">test</li>
-                <li className="pro_list_item">test</li>
-                <li className="pro_list_item">test</li>
-                <li className="pro_list_item">test</li>
-                <li className="pro_list_item">test</li>
-                <li className="pro_list_item">test</li>
+              <ul className="pro_list_free">
+                <li className="pro_list_item_pro">test</li>
+                <li className="pro_list_item_pro">test</li>
+                <li className="pro_list_item_pro">test</li>
+                <li className="pro_list_item_pro">test</li>
+                <li className="pro_list_item_pro">test</li>
+                <li className="pro_list_item_pro">test</li>
+                <li className="pro_list_item_pro">test</li>
+                <li className="pro_list_item_pro">test</li>
+                <li className="pro_list_item_pro">test</li>
+                <li className="pro_list_item_pro">test</li>
+                <li className="pro_list_item_pro">test</li>
+                <li className="pro_list_item_pro">test</li>
+                <li className="pro_list_item_pro">test</li>
+                <li className="pro_list_item_pro">test</li>
+
               </ul>
 
             </div>
