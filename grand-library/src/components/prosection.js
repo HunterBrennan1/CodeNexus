@@ -44,20 +44,20 @@ export const Prosection = () => {
                 <p className="pro_gray_text">per month, $36 billed yearly</p>
               </div>
               <ul className="pro_list_free">
-                <li className="pro_list_item_pro">test</li>
-                <li className="pro_list_item_pro">test</li>
-                <li className="pro_list_item_pro">test</li>
-                <li className="pro_list_item_pro">test</li>
-                <li className="pro_list_item_pro">test</li>
-                <li className="pro_list_item_pro">test</li>
-                <li className="pro_list_item_pro">test</li>
-                <li className="pro_list_item_pro">test</li>
-                <li className="pro_list_item_pro">test</li>
-                <li className="pro_list_item_pro">test</li>
-                <li className="pro_list_item_pro">test</li>
-                <li className="pro_list_item_pro">test</li>
-                <li className="pro_list_item_pro">test</li>
-                <li className="pro_list_item_pro">test</li>
+                <li className="pro_list_item_pro">Remove ads</li>
+                <li className="pro_list_item_pro">Create custom tools</li>
+                <li className="pro_list_item_pro">Unlimited Tools available</li>
+                <li className="pro_list_item_pro">Save unlimited tools</li>
+                <li className="pro_list_item_pro">View trending apps</li>
+                <li className="pro_list_item_pro">Unlimited projects</li>
+                <li className="pro_list_item_pro">Work with libraries</li>
+                <li className="pro_list_item_pro">Advanced search options</li>
+                <li className="pro_list_item_pro">Pro Profile page</li>
+                <li className="pro_list_item_pro">Private Profile</li>
+                <li className="pro_list_item_pro">Custom logos</li>
+                <li className="pro_list_item_pro">All future updates</li>
+                <li className="pro_list_item_pro">Create custom folders</li>
+                <li className="pro_list_item_pro">Support me as a <a className='linkedin-link' href="https://www.linkedin.com/in/hunter-brennan-dev/">developer</a></li>
 
               </ul>
 
