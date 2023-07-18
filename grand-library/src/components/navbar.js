@@ -70,7 +70,7 @@ function Navbartop() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <p className='top_banner_text'>A tool library made for developers, by developers.</p>
+      {/* <p className='top_banner_text'>A tool library made for developers, by developers.</p> */}
       <a className="back_to_top_btn" href="#"><img className="gotopbtn" src={UpArrow}></img></a>
     </section>
   );
