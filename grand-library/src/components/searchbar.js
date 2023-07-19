@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { items } from './toolslist';
 import Gradienthunt from '../assets/imgs/gradienthunt.PNG';
 import Cardhero from './cardpagehero';
+import Refresh from '../assets/imgs/refresh.svg';
 
 export const Searchbar = () => {
   const [selectedFilters, setSelectedFilters] = useState([]);
@@ -65,7 +66,11 @@ export const Searchbar = () => {
         <div className='search_container autocomplete'>
           <img className='search_icon_left' src={Magnifiericon}></img>
           <input type="text" value={searchText} onChange={handleInputChange} className='search_input' placeholder='Search or Filter by languages, styles, and more...'></input>
-
+          <div>
+            <button className="clear-button" onClick={handleClearInput}>
+              {/* <img className='clear-button_img' src={Refresh}></img> */}
+            </button>
+          </div>
         </div>
         {searchResults.length > 0 && (
           <ul className="autocomplete-options">
@@ -77,11 +82,7 @@ export const Searchbar = () => {
             ))}
           </ul>
         )}
-        {searchText && (
-          <button className="clear-button" onClick={handleClearInput}>
-            Clear
-          </button>
-        )}
+
       </div>
       <div className='search_filter_wrapper'>
         <div className='search_filter_container'>
