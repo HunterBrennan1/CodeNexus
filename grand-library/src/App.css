@@ -440,9 +440,33 @@ box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
   object-fit: cover;
 }
 
-/* .clear-button-img{
-  width:50px;
-} */
+.autocomplete-options{
+  line-height: 2;
+  display: flex;
+  justify-content:left;
+  list-style: none;
+  font-weight: 600;
+  margin-top:50px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap:35px;
+  padding-left: 0px !important;
+}
+
+.autocomplete-options li{
+  background-color: #f7f7f8;
+  color:#212529;
+  padding:8px 0px;
+  border-radius: 8px;
+  width:200px;
+  text-align: center;
+}
+
+.option-image{
+  width:180px;
+}
+
+
 
 /* ////////////////////Card Hero section styling///////////////////////// */
 
@@ -742,6 +766,15 @@ margin-left:10px;
     margin-left: 0px;
     width:auto;
     text-align: center;
+  }
+
+  .option-image{
+    display:none;
+  }
+
+  .autocomplete-options li{
+    font-size: 12px !important  ;
+    width:150px;
   }
 
   .homepage_hero_title{
