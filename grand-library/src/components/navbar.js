@@ -8,8 +8,24 @@ import UpArrow from '../assets/imgs/up-arrow-4.png';
 import Modal from 'react-bootstrap/Modal';
 import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
+import React, { useEffect } from 'react';
+
+
 
 function Navbartop() {
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  useEffect(() => {
+    const preferredMode = localStorage.getItem('mode');
+    setIsDarkMode(preferredMode === 'dark');
+  }, []);
+
+  const toggleMode = () => {
+    setIsDarkMode(!isDarkMode);
+    const mode = isDarkMode ? 'light' : 'dark';
+    localStorage.setItem('mode', mode);
+  };
+
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);

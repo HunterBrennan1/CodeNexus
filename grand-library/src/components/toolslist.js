@@ -21,7 +21,8 @@ export const items = [
     category: "Css",
     link: "https://gradienthunt.com/",
     button: "Link",
-    desc: "Find or make color gradients"
+    desc: "Find or make color gradients",
+    option: "Gradient Hunt"
   },
   {
     name: "Box-Shadow",

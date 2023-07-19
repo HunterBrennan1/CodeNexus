@@ -34,13 +34,54 @@ export const Searchbar = () => {
     }
   };
 
+  const [searchText, setSearchText] = useState('');
+  const [searchResults, setSearchResults] = useState([]);
+  const options = ['Gradient Hunt', 'Box-Shadow', 'Haikei', 'Bootstrap', 'KeyFrames', 'FullPage.js', 'Anime.js', 'Swiper.js', 'Three.js', 'Leaflet.js', 'MUI', 'React-Bootstrap', 'Nivo', 'Undraw.Co', 'Framer Motion'];
+
+  const handleInputChange = (event) => {
+    const value = event.target.value;
+    setSearchText(value);
+
+    // Filter options based on input value
+    const filteredOptions = options.filter((option) =>
+      option.toLowerCase().includes(value.toLowerCase())
+    );
+    setSearchResults(filteredOptions);
+  };
+
+  const handleOptionClick = (option) => {
+    setSearchText(option);
+    setSearchResults([]);
+  };
+
+  const handleClearInput = () => {
+    setSearchText('');
+    setSearchResults([]);
+  };
+
   return (
     <section>
       <div className='search_wrapper'>
-        <div className='search_container'>
+        <div className='search_container autocomplete'>
           <img className='search_icon_left' src={Magnifiericon}></img>
-          <input className='search_input' placeholder='Search or Filter by languages, styles, and more...'></input>
+          <input type="text" value={searchText} onChange={handleInputChange} className='search_input' placeholder='Search or Filter by languages, styles, and more...'></input>
+
         </div>
+        {searchResults.length > 0 && (
+          <ul className="autocomplete-options">
+            {searchResults.map((option) => (
+              <li key={option} onClick={() => handleOptionClick(option)}>
+                {option}
+
+              </li>
+            ))}
+          </ul>
+        )}
+        {searchText && (
+          <button className="clear-button" onClick={handleClearInput}>
+            Clear
+          </button>
+        )}
       </div>
       <div className='search_filter_wrapper'>
         <div className='search_filter_container'>
