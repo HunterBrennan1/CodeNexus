@@ -11,6 +11,9 @@
   font-family: 'Poppins', sans-serif !important;
 }
 
+body{
+  /* background-color: #464853; */
+}
 
 a{
   text-decoration: none;
@@ -137,7 +140,14 @@ box-shadow: 0px 0px 16px -4px rgba(0,0,0,0.28);
   margin-bottom: 15px;
   font-size: 14px;
   color: #464853;
+ 
 }
+
+/* .pro_benefits:before{
+  content:"\2B24";
+  color: #000;
+  margin-right: 10px;
+} */
 
 .pro_btn_price{
   width:100%;
